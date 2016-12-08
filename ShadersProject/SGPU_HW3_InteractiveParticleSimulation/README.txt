@@ -1,6 +1,5 @@
 *******************************************************
-*  Name      : Jordan Stein        
-*  Student ID: 101390302   
+*  Name      : Jordan Stein          
 *  Class     : CSCI 4800 - 002           
 *  HW#       : Final Project               
 *  Due Date  : 5/11/2016
@@ -16,17 +15,17 @@
 
 Using the implementation for homework 3, I have edited the particle simulator
 to become an interactive model viewer that allows ther user to:
-•	Update the model being shown in real-time
-•	Update the textures applied to the models in real-time
-•	Show a sample of the texture selected on the GUI
-•	Toggle the lighting between fixed and rotating
-•	Alter the speed of the rotating light
-•	Update the model position (x,y,z)
-•	Toggle between Phong/Gourand Shading 
-•	View surface normal in real time
-•	Alter normal scale (length of surface normal lines)
-•	View color mapping for each model
-•	Change the background color
+â€¢	Update the model being shown in real-time
+â€¢	Update the textures applied to the models in real-time
+â€¢	Show a sample of the texture selected on the GUI
+â€¢	Toggle the lighting between fixed and rotating
+â€¢	Alter the speed of the rotating light
+â€¢	Update the model position (x,y,z)
+â€¢	Toggle between Phong/Gourand Shading 
+â€¢	View surface normal in real time
+â€¢	Alter normal scale (length of surface normal lines)
+â€¢	View color mapping for each model
+â€¢	Change the background color
 
 
 *******************************************************
