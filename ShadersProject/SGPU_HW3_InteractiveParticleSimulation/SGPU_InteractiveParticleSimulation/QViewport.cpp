@@ -1,4 +1,4 @@
-// Jordan Stein 101390302
+// Jordan Stein
 
 #include "QViewport.h"
 #include <GeometryShader.h>
