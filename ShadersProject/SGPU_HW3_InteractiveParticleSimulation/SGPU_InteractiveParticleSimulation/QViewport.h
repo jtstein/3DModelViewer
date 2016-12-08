@@ -1,4 +1,4 @@
-// Jordan Stein 101390302
+// Jordan Stein
 #ifndef Q_VIEWPORT_H
 #define Q_VIEWPORT_H
 
