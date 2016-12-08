@@ -1,4 +1,4 @@
-// Jordan Stein 101390302
+// Jordan Stein
 #include "SGPU_InteractiveParticleSimulation.h"
 #include <QColorDialog>
 #include <qtimer.h>
