@@ -79,4 +79,3 @@ Name: SGPU_InteractiveParticleSimulation.cpp
    that freeglut.h is not found, edit the properties in the GraphicsLibrary, MathLibrary, and SQGP_InteractiveParticleSimulation.
    The preferences for the linker should all be set to x64 instead of win32.
 5. CLEAN build and run main.cpp using the local windows debugger / allow time for the model viewer to render.
-**If the program does crash while compiling, try closing Visual Studio and reopening the file, clean build and run again**
