@@ -1,0 +1,36 @@
+﻿Build started 5/10/2016 2:38:29 AM.
+     1>Project "C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\SGPU_InteractiveParticleSimulation\SGPU_InteractiveParticleSimulation.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\) contains files shared from another project (GraphicsLibrary.vcxproj, MathLibrary.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>CustomBuild:
+         Moc'ing SGPU_InteractiveParticleSimulation.h...
+         Uic'ing SGPU_InteractiveParticleSimulation.ui...
+         Moc'ing QViewport.h...
+         Rcc'ing SGPU_InteractiveParticleSimulation.qrc...
+     1>RCC : warning : No resources in 'C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\SGPU_InteractiveParticleSimulation\SGPU_InteractiveParticleSimulation.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtOpenGL /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\\" /Fd"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_SGPU_InteractiveParticleSimulation.cpp
+         qrc_SGPU_InteractiveParticleSimulation.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtOpenGL /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\\" /Fd"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Release\moc_QViewport.cpp GeneratedFiles\Release\moc_SGPU_InteractiveParticleSimulation.cpp main.cpp QViewport.cpp SGPU_InteractiveParticleSimulation.cpp
+         moc_QViewport.cpp
+         moc_SGPU_InteractiveParticleSimulation.cpp
+         main.cpp
+         QViewport.cpp
+         SGPU_InteractiveParticleSimulation.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\bin\\SGPU_InteractiveParticleSimulation.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5OpenGL.lib opengl32.lib glu32.lib Qt5Widgets.lib GraphicsLibrary.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\bin\SGPU_InteractiveParticleSimulation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\bin\SGPU_InteractiveParticleSimulation.lib" /MACHINE:X64 C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\qrc_SGPU_InteractiveParticleSimulation.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\moc_QViewport.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\moc_SGPU_InteractiveParticleSimulation.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\main.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\QViewport.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\SGPU_InteractiveParticleSimulation.obj
+         GraphicsLibrary.lib(Shader.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         Generating code
+         Finished generating code
+         SGPU_InteractiveParticleSimulation.vcxproj -> C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\bin\SGPU_InteractiveParticleSimulation.exe
+     1>Done Building Project "C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\SGPU_InteractiveParticleSimulation\SGPU_InteractiveParticleSimulation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.57

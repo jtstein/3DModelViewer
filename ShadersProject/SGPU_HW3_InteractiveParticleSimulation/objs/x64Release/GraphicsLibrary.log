@@ -1,0 +1,33 @@
+﻿Build started 5/10/2016 2:38:25 AM.
+     1>Project "C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\GraphicsLibrary\GraphicsLibrary.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\) contains files shared from another project (MathLibrary.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\\" /Fd"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\vc120.pdb" /Gd /TP /errorReport:prompt EnvironmentMap.cpp GeometryShader.cpp Grid.cpp Mesh.cpp ObjMesh.cpp ParticleSystem.cpp PNG.cpp Shader.cpp Texture.cpp
+         EnvironmentMap.cpp
+         GeometryShader.cpp
+         Grid.cpp
+     1>Grid.cpp(73): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+         Mesh.cpp
+         ObjMesh.cpp
+         ParticleSystem.cpp
+     1>ParticleSystem.cpp(234): warning C4267: 'argument' : conversion from 'size_t' to 'GLsizei', possible loss of data
+         PNG.cpp
+     1>PNG.cpp(773): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+         Shader.cpp
+         Texture.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\lib\GraphicsLibrary.lib" /NOLOGO /MACHINE:X64 /LTCG C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\EnvironmentMap.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\GeometryShader.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\Grid.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\Mesh.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\ObjMesh.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\ParticleSystem.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\PNG.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\Shader.obj
+         C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\objs\x64Release\Texture.obj
+         GraphicsLibrary.vcxproj -> C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\lib\GraphicsLibrary.lib
+     1>Done Building Project "C:\Users\Jordan\Desktop\ShadersProject\SGPU_HW3_InteractiveParticleSimulation\GraphicsLibrary\GraphicsLibrary.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.27
