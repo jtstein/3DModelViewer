@@ -1,6 +1,8 @@
 # 3D-Model-Viewer
 Shaders/GPU Final Project Report
 
+A video demonstration of my implementation can be viewed at: https://www.youtube.com/watch?v=1fiY3ucT32Q
+
 Motivation/Scope:
 
 I decided to implement an interactive model viewer for my final project in CSCI 4800. In the past, I have used model viewers for many different video games, so I thought it would be very interesting to have the opportunity to design and implement my own model viewer using the skills I have gained throughout the class. I knew that the scope of this project would be very suitable for me because the project description stated that it was oriented towards 4800 students who have not taken computer graphics.
@@ -48,4 +50,3 @@ To account for additional features, I would check if the user had selected to vi
 Conclusion:
 
 I have successfully implemented a model viewer that includes all of the major requirements I had initially planned for. While a few minor requirements were dropped, I had added additional features to compensate. I learned a lot about how to implement and modify shaders throughout programming this assignment. My favorite thing that I had taken away from this assignment was learning how to use and implement the Qt GUI effectively to update the aspects of the model being viewed. I had a lot of fun programming this assignment and I am very pleased with the result.
-A video demonstration of my implementation can be viewed at: https://www.youtube.com/watch?v=1fiY3ucT32Q
