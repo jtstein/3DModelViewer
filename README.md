@@ -1,6 +1,8 @@
 # 3D-Model-Viewer
 Shaders/GPU Final Project Report
 
+[![3D-Model-Viewer](https://i.ytimg.com/vi/1fiY3ucT32Q/hqdefault.jpg)](https://www.youtube.com/watch?v=1fiY3ucT32Q "3D-Model-Viewer")
+
 A video demonstration of my implementation can be viewed at: https://www.youtube.com/watch?v=1fiY3ucT32Q
 
 Sources used: freeglut, Qt5, OpenGL, MS Visual Studio 2013
