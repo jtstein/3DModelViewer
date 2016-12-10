@@ -9,7 +9,7 @@ Sources used: freeglut, Qt5, OpenGL, MS Visual Studio 2013
 
 Motivation/Scope:
 
-I decided to implement an interactive model viewer for my final project in CSCI 4800. In the past, I have used model viewers for many different video games, so I thought it would be very interesting to have the opportunity to design and implement my own model viewer using the skills I have gained throughout the class. I knew that the scope of this project would be very suitable for me because the project description stated that it was oriented towards 4800 students who have not taken computer graphics.
+I decided to implement an interactive model viewer for my final project in CSCI 4800. In the past, I have used model viewers for many different video games, so I thought it would be very interesting to have the opportunity to design and implement my own model viewer using the skills I have gained throughout the class.
 
 Related Work:
 
